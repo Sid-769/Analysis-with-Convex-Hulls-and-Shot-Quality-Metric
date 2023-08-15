@@ -9,13 +9,16 @@ Moreover, while traditional metrics like 'Shots on Target' and 'Expected Goals (
 Interestingly, the concept of the Shot Quality metric isn't entirely new to our studies. In a previous project, we touched upon this metric, outlining its potential importance in the soccer analytics landscape. With this endeavor, we've delved deeper into its intricacies and practical applications.
 
 Features:
+
 Convex Hull Visualization: Graphically determine and illustrate the region on the soccer field where a player is most likely to take shots.
+
 Shot Quality Metric: A custom statistic developed to gauge the quality of shots taken by players, offering a blend of traditional metrics for a more detailed insight.
+
 Pitch Representation: A meticulously crafted half-pitch representation to display the Convex Hull and relevant player statistics.
+
 Interactivity: Easily change between players to see individual shot data, Convex Hulls, and the Shot Quality metric.
-Potential Use Cases:
-Team Coaches & Management: Gain insights into where players most frequently shoot from and the quality of these shots to inform tactical decisions.
-Players: Understand personal strengths and areas for improvement in shooting.
-Fans & Analysts: A visually appealing and informative tool to discuss and debate player performance.
+
+Players: Gain insights into where players most frequently shoot from and the quality of these shots to inform tactical decisions.
+
 Technical Details:
 The project is implemented in Python using libraries such as Matplotlib for visualization, SciPy for Convex Hull calculations, and pandas for data handling.
